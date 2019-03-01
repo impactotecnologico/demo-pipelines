@@ -8,7 +8,7 @@ pipeline {
     	}
 		stage('build') {
         	steps {
-				javac -d . src/net/impactotecnologico/HolaMundo.java
+				echo 'Building....'
 			}
         }
         stage('finish') {
